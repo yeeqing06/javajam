@@ -1,0 +1,176 @@
+*{
+    box-sizing:border-box;
+}
+body {
+    background-color: #fcebb6;
+    color: #221811;
+    font-family: Verdana,Arial, Helvetica, sans-serif;
+    background-image: url('images/background.gif');
+}
+header {
+    background-color: #d2b48c; /*this is bg color declaration*/
+    /*text-align: center;*/
+    height: 150px;
+    background-image: url('images/javajamlogo.jpg');
+    background-repeat: no-repeat;
+    display: block;
+}
+h1{
+    padding-top: 45px;
+    padding-left: 220px;
+    font-size: 3em;
+}
+nav {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 10px;
+    float: left;
+    width: 200px;
+    display: block;
+}
+
+nav a { /*descendent selector, a that belong to nav*/
+    text-decoration: none;
+}
+
+nav a:link{
+    color: #fef6c2;
+}
+
+nav a:visited{
+    color: #D2b48c;
+}
+
+nav a:hover{
+    color: #cc9933;
+}
+
+nav ul{
+    list-style: none;/*list marker- default bullet*/
+    padding-left: 0;
+}
+
+footer {
+    background-color: #d2b48C;
+    font-size:.60em ;/*size of font*/
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10px;
+    border-top: 2px solid #221811;
+    display: block;
+}
+
+#wrapper { /* id selector*/
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #231814;
+    min-width: 900px;/*minimum width of the element*/
+    max-width: 1280px;/*maximum width of the element*/
+    box-shadow:3px 3px 3px #333333;
+}
+h4 {
+    background-color: #d2b48c;
+    font-size: 1.2em;
+    padding-left: .5em;
+    padding-bottom: .25em;
+    text-transform: uppercase;
+    border-bottom: 2 px solid #231814;
+    padding-bottom: 0;
+    clear:left;
+}
+
+main {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 2em;
+    margin-left: 200px;
+    background-color: #fef6c2;
+    display: block;
+}
+
+main h2, main h3, main h4, main p, main div, main ul, main dl {
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+.details {/*class selection declaration*/
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow: auto;/* overflow property is often used to clear a float, 
+    although its intended purpose is to */
+}
+img{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#heroroad {
+    background-image: url('images/heroroad.jpg');
+    background-size: 100% 100%; /*width height*/
+    height: 250px;
+}
+
+#heromugs {
+    background-image: url('images/heromugs.jpg');
+    background-size: 100% 100%; /*width height*/
+    height: 250px;
+}
+
+#heroguitar {
+    background-image: url('images/heroguitar.jpg');
+    background-size: 100% 100%; /*width height*/
+    height: 250px;
+}
+
+#herojobs{
+    background-image: url(images/herojobs.jpg);
+    background-size: 100% 100%;
+    height: 250px;
+}
+
+.floatleft{
+    float:left;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+table{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0;
+    background-color: #ffffcc;
+}
+
+td, th{
+    padding: 10px;
+}
+tr:nth-of-type(odd) {
+    background-color: #d2b48e;
+
+}
+
+form{
+    padding:2em;
+}
+
+label{
+    float: left;
+    display: block;
+    text-align: right;
+    padding-right: 1em;
+    width: 8em;
+}
+
+input, textarea{
+    display:block;
+    margin-bottom: 1em;
+}
+
+#mySubmit{
+    margin-left:9.5em,
+}
+
